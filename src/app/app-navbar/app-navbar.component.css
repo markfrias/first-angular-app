@@ -1,0 +1,23 @@
+ul {
+    background-color: blue;
+    display: flex;
+    width: 100vw;
+    height: 7vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    position: fixed;
+}
+
+li {
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
