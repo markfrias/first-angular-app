@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 500px 500px;
-    row-gap: 10%;
+    row-gap: 2%;
     column-gap: 3.33%;
     justify-content: center;
     margin-top: 5%;
@@ -15,6 +15,8 @@
     display: flex;
     flex-direction: column;
     padding: 2px;
+    border: solid gray 1px;
+
 }
 
 .content-image {
@@ -30,6 +32,8 @@
     padding: 0px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
+    text-align: center;
+    transition: color 1s;
 }
 
 .expand-bar {
@@ -42,4 +46,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.5%;
+}
+
+.content-title:hover {
+    color: gray;
+    cursor: pointer;
 }
