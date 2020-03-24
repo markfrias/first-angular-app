@@ -4,3 +4,23 @@ body {
     display: flex;
 }
 
+ul {
+    background-color: white;
+    display: flex;
+    width: 100vw;
+    height: 7vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    position: fixed;
+}
+
+li {
+    margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+
